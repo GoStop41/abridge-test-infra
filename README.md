@@ -8,11 +8,6 @@ terraform/<br>
 ├── backend_additional/ # Optional or extended backend config<br>
 ├── backend_base/ # Main infrastructure components (EKS, VPC, KMS, IRSA)<br>
 ├── data/ # External data dependencies or files<br>
-├── modules/ # Reusable infrastructure modules<br>
-│ ├── m-irsa<br>
-│ ├── m-kms-key<br>
-│ ├── m-tfstate<br>
-│ └── m-vpc<br>
 ├── tf-init/ # Terraform state bucket and IAM bootstrap<br>
 ├── tfvars/ # Variable files per environment<br>
 
