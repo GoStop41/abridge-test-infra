@@ -1,0 +1,5 @@
+vpn: #Company's VPN IPs
+- 76.126.185.92/32 #this is my own IP address to test for now
+
+additional: # Additional IPs need to be whitelistes
+- 76.126.185.92/30 #this is my own IP address to test for now

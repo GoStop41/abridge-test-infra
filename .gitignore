@@ -1,0 +1,41 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# JetBrains IDE files
+.idea/*
+!.idea/runConfigurations
+*.iml
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# VSC local history
+.history/
+.mypy_cache/
+.vscode/
+
+*.code-workspace
+
+**/secrets.yml
+**/secrets.yaml
+
+
+# Kubeconfigs
+#kubeconfig*
+
+# Ignore rendered JSON files for cognito
+rendered*.json
+
+*.auto.tfvars
+
+# Don't allow checking in unencrypted SOPS secrets
+*.backup
+
+# Plans have secrets
+plan.out
+
+# ignore local .auto.tfvars.json cause bitbucket-secrets.
+**/.auto.tfvars*
